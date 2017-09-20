@@ -6,19 +6,15 @@ html, body {
   font-size: 14px;
   overflow: hidden;
 }
-
 * {
   box-sizing: border-box;
 }
-
 a {
   color: #0066c0;
 }
-
 a:hover {
   color: #c45500;
 }
-
 #banner {
   background: #F6F6F6 url('../img/publi.jpg') no-repeat top left;
   height: 55px;
@@ -30,33 +26,28 @@ header {
   background-color: #232f3e;
   height: 110px;
 }
-
 .nav-left {
   position: relative;
   float: left;
   width: auto;
   display: inline-block;
 }
-
 .nav-right {
   position: relative;
   float: right;
   width: auto;
   display: inline-block;
 }
-
 .nav-fill {
   width: auto;
   white-space: nowrap;
   overflow: hidden;
 }
-
 #nav-logo {
   padding: 11px 18px 0 24px;
   position: relative;
   width: 192px;
 }
-
 #nav-logo .nav-logo-link {
   background: transparent url('../img/bari-logo.png') no-repeat top left;
   background-size: 102px;
@@ -64,7 +55,6 @@ header {
   height: 32px;
   display: block;
 }
-
 #nav-logo .nav-logo-tagline {
   color: #48a3c6;
   position: absolute;
@@ -75,11 +65,9 @@ header {
   font-family: arial, sans-serif;
   font-weight: 700;
 }
-
 #nav-logo .nav-logo-tagline:hover {
   color: #ffffff;
 }
-
 #nav-holiday {
   top: 9px;
   position: relative;
@@ -87,12 +75,10 @@ header {
   width: 400px;
   height: 39px;
 }
-
 #nav-holiday a {
   display: block;
   height: 100%;
 }
-
 #nav-search {
   position: relative;
   display: block;
@@ -100,11 +86,9 @@ header {
   padding-top: 11px;
   padding-right: 25px;
 }
-
 #nav-search input {
   width: 100%;
 }
-
 #nav-search .nav-left {
   height: 35px;
   background-color: #f3f3f3;
@@ -112,14 +96,12 @@ header {
   border: 1px solid #cdcdcd;
   overflow: hidden;
 }
-
 #nav-search .nav-left:hover {
   background-color: #dadada;
   border-left-color: #dadada;
   border-top-color: #dadada;
   border-bottom-color: #dadada;
 }
-
 #nav-search .nav-search-label {
   color: #777;
   display: block;
@@ -128,7 +110,6 @@ header {
   margin-right: 21px;
   margin-left: 10px;
 }
-
 #nav-search .nav-left i {
   position: absolute;
   top: 10px;
@@ -136,7 +117,6 @@ header {
   color: #a0a0a0;
   font-size: 11px;
 }
-
 #nav-search select {
   position: absolute;
   left: 0px;
@@ -147,12 +127,10 @@ header {
   outline: none;
   cursor: pointer;
 }
-
 #nav-search .nav-fill {
   height: 35px;
   overflow: hidden;
 }
-
 #nav-search .nav-fill input {
   border: none;
   height: 35px;
@@ -161,18 +139,15 @@ header {
   color: #111;
   outline: none;
 }
-
 #nav-search .nav-right {
   background-color: #febd69;
   width: 45px;
   height: 35px;
   border-radius: 0 4px 4px 0;
 }
-
 #nav-search .nav-right:hover {
   background-color: #f3a847;
 }
-
 #nav-search .nav-right i {
   position: absolute;
   top: 5px;
@@ -181,7 +156,6 @@ header {
   font-size: 22px;
   opacity: 0.9;
 }
-
 #nav-search .nav-right input {
   position: relative;
   width: 100%;
@@ -200,32 +174,27 @@ header {
   padding: 0;
   margin: 18px 0 0 0;
 }
-
 #nav-main li {
   display: inline-block;
   padding: 10px 9px 0 0;
 }
-
 #nav-main a {
   color: #fff;
   font-size: 14px;
   font-weight: 700;
   text-decoration: none;
 }
-
 #nav-main .nav-a {
   padding: 7px 10px;
   border: 1px solid transparent;
   display: inline-block;
   position: relative;
 }
-
 #nav-main .nav-a:hover {
   border: 1px solid #4f5965;
   border-radius: 3px;
   box-shadow: 0 1px 0 0 rgba(255,255,255,.5);
 }
-
 #nav-main .nav-a span {
   display: block;
   margin-left: -2px;
@@ -233,50 +202,40 @@ header {
   color: #ccc;
   font-size: 12px;
 }
-
 #nav-main i.fa-caret-down {
   color: #ccc;
   font-size: 11px;
   padding-left: 3px;
 }
-
 #nav-main .nav-left {
   height: 55px;
 }
-
 #nav-main .nav-left .nav-shop {
   float: left;
   width: 192px;
   padding: 4px 12px 0 15px;
 }
-
 #nav-main .nav-left .nav-shop a {
   margin-top: 16px;
 }
-
 #nav-main .nav-fill a {
   font-weight: 500;
   color: #ccc;
 }
-
 #nav-main .nav-fill a:hover {
   text-decoration: underline;
 }
-
 #nav-main .nav-right {
   padding-right: 6px;
 }
-
 #nav-main .nav-right a {
   margin-top: 6px;
 }
-
 #nav-main .nav-right .cart {
   background: transparent url(../img/carrito.png) no-repeat 11px 11px;
   background-size: 39px;
   padding: 7px 20px 7px 50px;
 }
-
 #nav-main .nav-right .cart span {
   color: #f08804;
   margin-left: -20px;
@@ -301,6 +260,124 @@ header {
     margin-top: -2px;
 }
 /*parte final de Diana*/
+/* ****Adding the fist footer---Yudith*/
+/*----------------1----------------*/
 
+footer a {
+  color: #fff;
+}
+
+footer .top {
+  background: #37475a;
+}
+
+footer .top a {
+  padding: 17px;
+  width: 100%;
+  display: inline-block;
+}
+
+footer .top a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .top:hover {
+  background: #485769;
+}
+/*------------------2-----------*/
+footer .center {
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
+footer ul {
+  margin: 30px 40px 30px 0;
+  display: inline-block;
+  vertical-align: top;
+  list-style: none;
+}
+
+footer .middle {
+  background: #232f3e;
+}
+
+footer .middle h3 {
+  color: #fff;
+  font-weight: 700;
+  margin-bottom 10px;
+  padding: 0;
+  font-size: 16px;
+}
+
+footer .middle li {
+  position: relative;
+}
+
+footer .middle .logo {
+  background: transparent url('../img/logo-yud.png') no-repeat 0 0;
+  background-size: 76px;
+  width: 76px;
+  height: 23px;
+  display: block;
+  border: none !important;
+  margin-right: 60px;
+  position: absolute;
+  top: -14px;
+  left: -120px;
+}
+
+footer .middle a {
+  color: #ddd;
+  font-size: 13px;
+  display: block;
+  padding: 5px 0;
+}
+
+footer ul.copy {
+  display: inline-block;
+  width: 100%;
+}
+
+footer ul.copy li {
+  display: inline-block;
+  margin-right: 20px;
+  color: #999;
+  font-size: 11px;
+}
+
+footer .middle .copy {
+  border-top: 1px solid #3a4553;
+  padding: 30px 20px 20px 20px;
+}
+
+footer .middle .copy a {
+  padding: 10px 30px 10px 10px;
+  color: #ccc;
+  border: 1px solid #848688;
+  border-radius: 3px;
+}
+
+footer .middle .copy a:hover {
+  text-decoration: none;
+  border-color: #8D9096;
+}
+
+footer .middle .fa-globe {
+  margin-right: 5px;
+}
+
+footer .middle .flag-icon-us {
+  background-image: url('https://sp-bootstrap.global.ssl.fastly.net/8.0.0/images/flags/us.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: 1em;
+  width: 1.33333333em;
+  margin-right: 7px;
+  background-position: 0 2px;
+}
+/* fin de yuyi */
 
 
