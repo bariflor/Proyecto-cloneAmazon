@@ -1,6 +1,33 @@
+html, body {
+  margin: 0;
+  font-family: arial,sans-serif;
+  min-width: 900px;
+  line-height: 14px;
+  font-size: 14px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #0066c0;
+}
+
+a:hover {
+  color: #c45500;
+}
+
+#banner {
+  background: #F6F6F6 url('../img/publi.jpg') no-repeat top left;
+  height: 55px;
+  background-size: 1920px;
+  min-width: 1000px;
+  display: block;
+}
 header {
   background-color: #232f3e;
-  height: 99px;
+  height: 110px;
 }
 
 .nav-left {
@@ -30,7 +57,7 @@ header {
 }
 
 #nav-logo .nav-logo-link {
-  background: transparent url('../img/logo.png') no-repeat top left;
+  background: transparent url('../img/bari-logo.png') no-repeat top left;
   background-size: 102px;
   width: 192px;
   height: 32px;
@@ -55,7 +82,7 @@ header {
 #nav-holiday {
   top: 9px;
   position: relative;
-  background-image: url('../img/fathers_day.jpg');
+  background-image: url('../img/bari-back.jpg');
   width: 400px;
   height: 39px;
 }
@@ -163,7 +190,7 @@ header {
   cursor: pointer;
   background: none;
   border: none;
-  text-indent: -1000px;
+  text-indent: -9999px;
 }
 /*seccion sonia*/
 #nav-main ul {
@@ -244,7 +271,7 @@ header {
 }
 
 #nav-main .nav-right .cart {
-  background: transparent url('../assets/img/carrito.png') no-repeat 11px 11px;
+  background: transparent url('../assets/img/carro.png') no-repeat 11px 11px;
   background-size: 39px;
   padding: 7px 20px 7px 50px;
 }
@@ -256,3 +283,7 @@ header {
   font-weight: 700;
 }
 /*fin de seccion sonia*/
+  
+
+
+
