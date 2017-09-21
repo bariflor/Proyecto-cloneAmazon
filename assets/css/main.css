@@ -4,7 +4,6 @@ html, body {
   min-width: 900px;
   line-height: 14px;
   font-size: 14px;
-  overflow: hidden;
 }
 * {
   box-sizing: border-box;
@@ -313,7 +312,12 @@ footer .middle h3 {
 footer .middle li {
   position: relative;
 }
-
+footer .middle a {
+  color: #ddd;
+  font-size: 13px;
+  display: block;
+  padding: 5px 0;
+}
 footer .middle .logo {
   background: transparent url('../img/logo-yud.png') no-repeat 0 0;
   background-size: 76px;
@@ -325,13 +329,6 @@ footer .middle .logo {
   position: absolute;
   top: -14px;
   left: -120px;
-}
-
-footer .middle a {
-  color: #ddd;
-  font-size: 13px;
-  display: block;
-  padding: 5px 0;
 }
 
 footer ul.copy {
