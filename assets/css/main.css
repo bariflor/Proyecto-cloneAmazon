@@ -248,7 +248,7 @@ header {
 
 @media (min-width: 1200px) {
     .container {
-        width: 1530px;
+        width: 1240px; 
     }
 }
 
